@@ -8,11 +8,11 @@
     grid-gap: 20px;
 }
 .red1 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red;
   grid-column:1/3;
-  grid-row:1/2; 
+   
 
 } 
 .green1 {
@@ -28,11 +28,11 @@
  
 } 
 .blue1 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
   grid-column:1/3;
-  grid-row:4/5; 
+  
 } 
 /* Activity 2 styles */ 
 .content2 {
