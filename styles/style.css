@@ -5,16 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,400;1,300&family=Rock+Salt&display=swap');
 
 
-body {
-    background-color: blue;
-    font-family: Raleway, Arial, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-} 
-nav {
-    padding: 25px;
-} 
+
+
 a {
     color: white;
     font-family: 'Playfair Display', serif;
@@ -48,7 +40,7 @@ h1 {
     text-align: center;
 } 
 h2 {
-    color: black;
+    color: red;
     text-align: center; 
     margin: 0;
 }
@@ -92,9 +84,7 @@ p {
     height: 725px;
     background-color: #d9c2a3;
 } 
-header {
-    background-color:rgba(20,30,13, .7);
-} 
+
 .logo{
     width: 80px;
 }
@@ -108,11 +98,7 @@ header {
     display: block;
     margin: 0 auto;
 }
-#hero-img {
-    display: block;
-    width: 100%; 
-    margin: 0 auto;
-} 
+
 .card{
     display: block;
     width:20%; 
@@ -161,4 +147,162 @@ footer h3 a:hover {
 } 
 main section img {
     box-sizing: border-box;
+} 
+body {
+    background-color: rgba(0, 0, 255, 0.247);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}  
+
+nav {
+    padding: 25px;
+    display:flex;
+    justify-content: space-around;
+} 
+a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
 }
+.book{ 
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 30px;
+    display: block;
+    text-decoration:  #d9c2a3;;
+    margin-top: 50px;
+    border-radius: 5px;
+
+} 
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+nav a:hover { 
+    color: #d9c2a3;
+} 
+h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color: #d9c2a3;
+    font-size: 2.5em;
+    text-align: center;
+} 
+h2 {
+    color: black;
+    text-align: center; 
+    margin: 0;
+}
+h3 {
+    color: #d9c2a3;
+    font-size: 1.5em;
+    padding: 35px; 
+    font-family: 'Playfair Display', serif;
+
+}
+h4 {
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+} 
+footer p {
+    padding: 25px;
+    font-size: 14px;
+    margin: 20px auto;
+} 
+footer { 
+    background-color:rgba(20,30,13, .7);
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+footer img {
+    width:10%;
+} 
+footer a {
+    text-decoration: none;
+    color: #d9c2a3;
+}
+p {
+    line-height: 1.5em;  
+    color: white;
+    font-size: 1.5em;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+} 
+
+.logo{
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+} 
+.oars {
+    width:80px;
+    display: block;
+    margin: 0 auto;
+}
+#hero-img {
+    display: block;
+    width: 100%; 
+    margin: 0 auto;
+} 
+.card{
+    display: block;
+    width:20%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+    box-sizing: border-box;
+}
+.boat {
+    display: block;
+    width:20%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+} 
+.social{
+    width: 20%;
+} 
+
+.msg h2 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.join {
+    color: black;
+    background-color: #6f7364;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 30px;
+    display: block;
+    text-decoration:  #d9c2a3;;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+footer h3 a:hover {
+    text-decoration: underline;
+} 
+.book:hover {
+    background-color: white;
+    color: #d9c2a3;
+} 
+.join:hover {
+    color: #d9c2a3;
+} 
+main section img {
+    box-sizing: border-box;
+} 
+
+
+            
