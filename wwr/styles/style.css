@@ -90,6 +90,15 @@ nav {
 .card:hover {
     opacity: .6;
     transform: scale(1.1);
+} 
+.boat {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+} 
+.boat:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 body {
     background-color: #fcfbfb;
@@ -109,8 +118,7 @@ a {
     font-size: 1.5em;
 }
 .book{ 
-    color: black;
-    background-color: white;
+    color:  #d9c2a3;;
     text-align: center;
     font-size: 40px;
     padding: 15px 30px;
