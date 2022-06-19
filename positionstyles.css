@@ -281,4 +281,8 @@
 .hint a {
   position: relative;
   z-index: 1;
-}
+} 
+.Main-fork {
+  grid-column: 2/4;
+  grid-row: 2/3;
+} 

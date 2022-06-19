@@ -184,10 +184,10 @@ footer a {
 }
 p {
     line-height: 1.5em;  
-    color: white;
+    color: black;
     font-size: 1.5em;
     text-align: center; 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 } 
 
 .logo{
@@ -253,5 +253,83 @@ footer h3 a:hover {
 main section img {
     box-sizing: border-box;
 } 
-            
-        
+#Salmon {
+    display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
+}
+#Salmon-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#Salmon-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+} 
+#Salmon-msg h4 { 
+    color: white;
+} 
+#Salmon-img {
+    display: block;
+    width: 100%; 
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.Idaho-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: center;
+}   
+.fork {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;        
+  } 
+  
+  .fork {
+   
+    width:100%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+    box-sizing: border-box;
+  }
+  .fork-card {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+  }
+  .gray{
+    width:100%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+    box-sizing: border-box;
+  } 
+  .gray {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+  } 
+
+  .grand {
+    width:100%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+  } 
+  .fork:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  } 
+  .grand:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  } 
+  .gray:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+
