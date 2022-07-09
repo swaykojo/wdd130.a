@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Roboto:ital,wght@0,400;1,300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,400;1,300&family=Rock+Salt&display=swap');
+
+
+
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #023e8a;
+} 
+nav {
+    display: flex;
+    justify-content: space-around;
+} 
+.logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+} 
+#home {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#home-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#home-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+} 
+#home-msg h4 { 
+    color: white;
+          
+} 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr)
+}
+#home-img {
+    display: block;
+    width: 100%; 
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}  
+#service {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#service-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#service-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+} 
+#service-img {
+    display: block;
+    width: 100%; 
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+} 
+#about-img {
+    display: block;
+    width: 100%; 
+} 
+#about-me{
+    float: left;
+    margin: 0; 
+    width: 8%;
+}
+.home-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+} 
+#background {
+    height: 725px;
+    background-color: #d9c2a3;
+    grid-column: 1/11;
+    grid-row: 4/9;
+} 
+.mountains { 
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+} 
+.msg {
+    background-color: #6f7364;
+    line-height: 2.5em;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+} 
+.card {
+    border: 10px solid  #023e8a;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card:hover {
+    opacity: .6;
+    transform: scale(1.1);
+} 
+.boat {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+} 
+.boat:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+body {
+    background-color: #fcfbfb;
+    font-family:  Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+} 
+nav {
+    padding: 25px;
+    display:flex;
+    justify-content: space-around;
+} 
+a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+.book{ 
+    color:  #d9c2a3;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 30px;
+    display: block;
+    text-decoration:  #d9c2a3;;
+    margin-top: 50px;
+    border-radius: 5px;
+
+} 
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+nav a:hover { 
+    color: #48CAE4;
+} 
+h1 {
+    font-family:  'Playfair Display', serif;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+} 
+h2 {
+    color: black;
+    text-align: center; 
+    margin: 0;
+}
+h3 {
+    color: white;
+    font-size: 1.5em;
+    padding: 35px; 
+    font-family: 'Playfair Display', serif;
+
+}
+h4 {
+    color: black;
+    font-size: 1.8em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}  
+h5{
+    font-family:  'Playfair Display', serif;
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+}
+footer p {
+    padding: 25px;
+    font-size: 14px;
+    margin: 20px auto;
+} 
+footer { 
+    background-color: #023e8a;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+footer img {
+    width:10%;
+} 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+p { 
+    line-height: 1.5em; 
+    color: rgba(0, 0, 0, 0.418);
+    font-size: 1.5em; 
+    font-family:  Roboto, Helvetica, sans-serif;
+    text-align: center;
+} 
+
+.logo{
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+} 
+.oars {
+    width:80px;
+    display: block;
+    margin: 0 auto;
+}
+#home-img {
+    display: block;
+    width: 100%; 
+    margin: 0 auto;
+} 
+.card{
+    display: block;
+    width:100; 
+    margin: 0 auto;
+}
+.boat {
+    display: block;
+    width:100; 
+    margin: 0 auto;
+    border: 10px solid   #023e8a;
+} 
+.social{
+    width: 20%;
+} 
+
+.msg h2 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+} 
+.book:hover {
+    background-color: white;
+    color: #d9c2a3;
+} 
+.join:hover {
+    color: #d9c2a3;
+} 
+main section img {
+    box-sizing: border-box;
+} 
+
+.fork {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;        
+  } 
+  
+  .fork {
+   
+    width:100%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+    box-sizing: border-box;
+  }
+  .fork-card {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+  }
+  .gray{
+    width:100%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+    box-sizing: border-box;
+  } 
+  .gray {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+  } 
+
+  .grand {
+    width:100%; 
+    margin: 0 auto;
+    border: 10px solid  #d9c2a3;
+  } 
+  .fork:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  } 
+  .grand:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  } 
+  .gray:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  } 
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  } 
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+} 
+.moveDown {
+    margin-top: 3em;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+}
+nav, footer {
+        flex-direction: column;
+}
+nav a {
+        display: block;
+        padding: 15px;
+}
+#home {
+        margin-top: 0;
+}
+#home-msg {
+        margin-top: 0;
+}
+#home-msg h4 {
+        display: none;
+}
+.home-title {
+        font-size: 25px;
+        color: #6f7364;
+}
+.home-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+}
+#background {
+        display: none;
+ }
+.mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+ }
+footer {
+        margin-top: 25px;
+ }
+  }
