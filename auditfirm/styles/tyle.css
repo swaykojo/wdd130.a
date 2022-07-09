@@ -402,8 +402,27 @@ main section img {
 } 
 .moveDown {
     margin-top: 3em;
+<<<<<<< HEAD
 }
 
+=======
+} 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+>>>>>>> fecf57ad2322395cabb775a5e0712c0068cf7685
 
 
 @media screen and (max-width: 900px) {
@@ -446,4 +465,9 @@ nav a {
 footer {
         margin-top: 25px;
  }
+<<<<<<< HEAD
   }
+=======
+  }
+
+>>>>>>> fecf57ad2322395cabb775a5e0712c0068cf7685
