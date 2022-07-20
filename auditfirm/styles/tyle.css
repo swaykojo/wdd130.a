@@ -50,6 +50,9 @@ nav {
     grid-row: 1/2;
     margin-top: 100px;
 }  
+#content {
+    max-width: 1600px;
+}
 #service {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -168,9 +171,13 @@ h5{
 }
 footer p {
     padding: 25px;
-    font-size: 14px;
+    font-size: 10px;
     margin: 20px auto;
-} 
+}  
+footer h3{ 
+    font-size: 10px;
+
+}
 footer { 
     background-color: #023e8a;
     color: white;
@@ -186,6 +193,7 @@ footer img {
 footer a {
     text-decoration: none;
     color: white;
+    font-size: 10px;
 }
 p { 
     line-height: 1.5em; 
@@ -385,5 +393,6 @@ footer {
  }
 
   }
-
-  
+  #content {
+    max-width: 1600px;
+} 
