@@ -6,24 +6,24 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #48CAE4   ;
+  --primary-color: white  ;
   --secondary-color: #023e8a ;
-  --accent1-color: #0077b6;
-  --accent2-color: white;
+  --accent1-color:#fcfbfb;
+  --accent2-color:#48CAE4;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
-  --paragraph-font: Roboto, Helvetica, sans-serif;
+  --heading-font: Arial, Helvetica, sans-serif ;
+  --paragraph-font:  Roboto, Helvetica, sans-serif ;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #023e8a;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #0077b6; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: rgba(0, 0, 0, 0.418); /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #023e8a  ;
   --nav-link-color: #396E94;
   --nav-background-color: #48CAE4;
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: #48CAE4;
   --nav-hover-background-color: #396E94;
 }
 
