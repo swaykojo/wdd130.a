@@ -1,0 +1,45 @@
+body {
+    color: #f5f6f7; 
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_960_720.jpg);
+  }
+  h1, p{
+    margin: 1em auto;
+    text-align: center;
+    color:  #1b1b32;
+  } 
+  form {
+    width: 60vw;
+    margin: 0 auto;
+    background-color:#262649;
+    opacity: 90%;
+  }  
+  fieldset{
+    border: none;
+    padding: 2rem 0; 
+  } 
+  label {
+    display: block;
+    margin: auto 20px;
+  } 
+  input, select, textarea{
+    margin: 10px 0 0 0;
+    width: 100%; 
+    min-height: 2rem;
+
+  } 
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  } 
+  input[type="submit"]{
+   display: block;
+   width: 60%;
+   margin: 1em auto;
+   height: 2em;
+   font-size: 1.1rem;
+   background-color: #90ee90;
+   border-color:#90ee90;
+   color: white;
+   min-width: 300px;
+  }
