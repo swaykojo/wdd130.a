@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"name": "wdd130",
+			"path": "..\\..\\wdd130"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "wdd130"
+	}
+}
